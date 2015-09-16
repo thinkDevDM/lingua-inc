@@ -1,0 +1,717 @@
+body {
+	font-size: 18px;
+	font-family: "Oxygen", "Calibri", Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Raleway", "Calibri", Arial, sans-serif;
+}
+
+.large-font {
+	font-size: 1.375em;
+}
+
+.co-name {
+	font-style: italic;
+}
+
+.custom-text {
+	color: #34495e;
+}
+
+.clear-fix {
+	clear: both;
+}
+
+.float-right {
+	float: right;
+}
+
+.float-left {
+	float: left;
+}
+
+/*.float-right {
+	float: right;
+	display: inline;
+}
+
+.float-left {
+	float: left;
+	display: inline;
+}*/
+
+nav {
+	height: 100px;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #3498db;
+}
+
+.navbar-inverse .navbar-brand:hover {
+    color: #2980b9;
+}
+
+.navbar-brand {
+	font-size: 2.33333em;
+	margin-top: 23px;
+	font-family: "Raleway", "Calibri", Arial, sans-serif;
+}
+
+nav #navbar ul {
+	float: right;
+	background-color: #3498db;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-o-border-radius: 2px;
+	font-size: 16px;
+}
+
+nav #navbar ul a {
+	color: #fff;
+}
+
+nav #navbar ul a:hover {
+	color: #333;
+}
+
+#navbar ul {
+	margin-top: 23px;
+	font-weight: 600;
+}
+
+.jumbotron {
+	margin-top: 100px;
+	background: url(../img/france.jpg) no-repeat center top;
+	text-align: center;
+	min-height: 670px;
+	margin-bottom: 0;
+}
+
+.jumbotron h1 {
+	font-size: 2.5em;
+	margin-top: 20px;
+	margin-top: 120px
+}
+
+.jumbotron #sub-heading {
+}
+
+.jumbotron p:nth-child(3) {
+	font-size: 2.5em;
+	color: #3498db;
+	background-color: rgba(1,1,1,.1);
+	margin-top: 45px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+#services {
+	border-top: 4px solid #3498db;
+	background-color: #ecf0f1;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	text-align: center;
+	min-height: 500px;
+}
+
+#services h1 {
+	text-transform: uppercase;
+	font-weight: 500;
+	color: #3498db;
+}
+
+#services hr {
+	border-color: #3498db;
+	width: 150px;
+	margin-top: 10px;
+	margin-bottom: 32px;
+}
+
+#services h2 {
+	color: #3498db;
+}
+
+#services #more-service-info {
+	margin-top: 25px;
+}
+
+#services .btn {
+	font-size: 1.5em;
+	margin-bottom: 24px;
+	border: none;
+}
+
+#about {
+	background-color: #fff;
+	border-top: 4px solid #e74c3c;
+	min-height: 500px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+#about h1 {
+	text-transform: uppercase;
+	font-weight: 500;
+	color: #e74c3c;
+}
+
+#about hr {
+	border-color: #e74c3c;
+	margin-top: 10px;
+	margin-bottom: 32px;
+}
+
+span#about-heading {
+	color: #95a5a6;
+}
+
+#about .btn {
+	font-size: 1.5em;
+	margin: 10px 0 24px 0;
+	background-color: #e74c3c;
+	border: none;
+}
+
+#about .btn:hover {
+	background-color: #c0392b;
+}
+
+#about img {
+	margin-top: 30px;
+}
+
+#testimonials {
+	border-top: 4px solid #f39c12;
+	background-color: #333;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	min-height: 400px;
+	background-image: url(../img/white_shoeprints.png);
+	background-repeat: no-repeat;
+	background-size: 15%;
+	background-position: top left;
+}
+
+#testimonials h1 {
+	text-transform: uppercase;
+	font-weight: 500;
+	color: #f39c12;
+	text-align: center;
+}
+
+#testimonials hr {
+	border-color: #f39c12;
+	width: 375px;
+	margin-top: 10px;
+	margin-bottom: 32px;
+}
+
+#testimonials .fa-quote-left {
+	margin-right: 10px;
+}
+
+#testimonials p {
+	font-size: 1.15em;
+	margin-bottom: 5px;
+	color: #fff;
+}
+
+#testimonials .col-md-6 {
+	padding-bottom: 25px;
+}
+
+#testimonials .names {
+	font-size: .95em;
+	float: right;
+	font-style: italic;
+	color: #f39c12;
+}
+
+#contact {
+	border-top: 4px solid #2980b9;
+	background-color: #95a5a6;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	min-height: 400px;
+	background-image: url(../img/soundwave.png);
+	background-size: 15%;
+	background-position: center right;
+	background-repeat: no-repeat;
+}
+
+#contact h1 {
+	text-transform: uppercase;
+	font-weight: 500;
+	color: #2980b9;
+	text-align: center;
+}
+
+#contact hr {
+	border-color: #2980b9;
+	width: 210px;
+	margin-top: 10px;
+	margin-bottom: 32px;
+}
+
+#contact #contact-list {
+	padding-left: 60px;
+}
+
+#contact-list i {
+	margin-right: 15px;
+}
+
+#contact-list p {
+	margin-bottom: 0;
+}
+
+#contact-list p:first-child {
+	margin-top: 15px;
+}
+
+#city-zip {
+	padding-left: 30px;
+}
+
+footer {
+	border-top: 4px solid #fff;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	background-color: #3498db;
+	color: #fff;
+	min-height: 150px;
+}
+
+.footer-div {
+	width: 33.333%;
+	float: left;
+}
+
+footer .footer-brand {
+	font-size: 1.75em;
+	color: #34495e;
+	text-decoration: none;
+}
+
+footer .footer-brand:hover {
+	color: #2c3e50;
+}
+
+#copyright {
+	font-size: small;
+}
+
+#github {
+	color: #34495e;
+}
+
+#github:hover {
+	color: #2c3e50;
+	text-decoration: none;
+}
+
+footer ul {
+	list-style: none;
+}
+
+footer ul li {
+	display: inline-block;
+	cursor: pointer;
+}
+
+footer ul#misc-list {
+	text-align: center;
+	padding-left: 0;
+}
+
+footer ul#misc-list li {
+	margin-right: 15px;
+}
+
+footer ul#misc-list li a {
+	color: #fff;
+	font-size: small;
+}
+
+footer ul#social-list {
+	float: right;
+}
+
+footer ul#social-list li img {
+	width: 30px;
+	height: 30px;
+}
+
+footer ul li img:hover {
+	background-color: #fff;
+	border-radius: 100%;
+}
+
+/*
+*
+* 
+Services Page 
+*
+*
+*/
+#services-page {
+	padding-top: 25px;
+	padding-bottom: 50px;
+	background: #ecf0f1;
+}
+
+#services-jumbo {
+	margin-top: 100px;
+	background: url(../img/italy.jpg) no-repeat center center;
+	background-size: 100%;
+	height: 500px;
+}
+
+#services-banner {
+	background: rgba(52, 152, 219, .9);
+	color: #fff;
+	width: 425px;
+	height: 250px;
+	margin-top: 125px;
+	padding:5px 5px 5px 20px;
+}
+
+#services-banner h1 {
+	font-weight: 600;
+}
+
+#main-content {
+	width: 70%;
+	display: inline-block;
+}
+
+#services-page #main-content h2 {
+	color: #3498db;
+	margin-top: 40px;
+	text-transform: uppercase;
+}
+
+#services-page #main-content hr {
+	border-color: #3498db;
+	margin-top: 10px;
+}
+
+#services-page #main-content #languages ul {
+	list-style: none;
+}
+
+#services-page #main-content ul li {
+	margin-bottom: 10px;
+}
+
+/*
+*
+* 
+About Page 
+*
+*
+*/
+#about-page {
+	padding-top: 25px;
+	padding-bottom: 50px;
+	background: #ecf0f1;
+}
+
+#about-jumbo {
+	margin-top: 100px;
+	background: url(../img/yellow_wall.jpg) no-repeat bottom center;
+	background-size: 100%;
+	height: 500px;
+}
+
+#about-banner {
+	background: rgba(231, 76, 60, .9);
+	color: #fff;
+	width: 425px;
+	height: 250px;
+	margin-top: 125px;
+	padding:5px 5px 5px 20px;
+}
+
+#about-banner h1 {
+	font-weight: 600;
+}
+
+#about-page #main-content h2 {
+	color: #e74c3c;
+	margin-top: 40px;
+	text-transform: uppercase;
+}
+
+#about-page #main-content hr {
+	border-color: #e74c3c;
+	margin-top: 10px;
+}
+
+#about-page #main-content a {
+	text-decoration: none;
+}
+
+#about-page #contact-box {
+	border: 2px solid #e74c3c;
+}
+
+#about-page #our-leaders h4, #about-page #our-leaders h5 {
+	text-align: center;
+}
+
+#about-page #our-leaders img {
+	width: 200px;
+}
+
+/*
+*
+* 
+Locations Page
+*
+*
+*/
+#locations-page {
+	padding-top: 25px;
+	padding-bottom: 50px;
+	background: #ecf0f1;
+}
+
+#locations-jumbo {
+	margin-top: 100px;
+	background: url(../img/globe.jpg) no-repeat center right;
+	background-size: 62%;
+	height: 500px;
+	background-color: #f1c40f;
+}
+
+#locations-banner {
+	background: rgba(52, 73, 94, 1);
+	color: #fff;
+	width: 425px;
+	height: 250px;
+	margin-top: 125px;
+	padding:5px 5px 5px 20px;
+}
+
+#locations-banner h1 {
+	font-weight: 600;
+}
+
+#locations-page #main-content h2 {
+	color: #f1c40f;
+	margin-top: 40px;
+	text-transform: uppercase;
+}
+
+#locations-page #main-content hr {
+	border-color: #f1c40f;
+	margin-top: 10px;
+}
+
+#locations-page #main-content img {
+	max-width: 400px;
+	border-radius: 5px;
+	border: 2px solid #999;
+}
+
+#locations-page #main-content img.float-left {
+	margin-right: 20px;
+}
+
+#locations-page #main-content img.float-right {
+	margin-left: 20px;
+}
+
+#locations-page #contact-box {
+	border: 2px solid #f1c40f;
+}
+
+/*
+*
+* 
+Contact Box 
+*
+*
+*/
+#contact-box {
+	width: 25%;
+	float: right;
+	margin-left: 5%;
+	margin-top: 40px;
+	padding-bottom: 20px;
+	background-color: #fff;
+	border: 2px solid #3498db;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+
+#contact-box hr {
+	border-color: inherit;
+	margin-top: 10px;
+	width: 88%;
+}
+
+#contact-box h3 {
+	margin-left: 15px;
+}
+
+#contact-box #contact-list, #contact-box #call-today {
+	padding-left: 15px
+}
+
+/*
+*
+* 
+Media Queries 
+*
+*
+*/
+@media (max-width: 767px) {
+	nav .navbar-nav li {
+		width: 150px;
+	}
+
+	#contact {
+		background-image: url(../img/soundwave.png);
+		background-size: 30%;
+		background-position: bottom right;
+	}
+
+	.jumbotron p:nth-child(3) {
+		font-size: 1.5em;
+	}
+
+	footer .footer-brand {
+		font-size: 1.25em;
+	}
+
+	footer ul#misc-list li {
+		display: block;
+	}
+
+	footer ul#social-list {
+		float: left;
+		padding-left: 0;
+	}
+
+	footer ul#social-list li {
+		float: left;
+		margin-right: 8px;
+	}
+
+	/* Services Page */
+	#services-jumbo {
+		background: #34495e;
+		height: 300px;
+	}
+
+	#services-banner {
+		width: 90%;
+		height: 250px;
+		margin: 25px auto;
+	}
+
+	#services-banner p {
+		font-size: 1.05em;
+	}
+
+	/* About Page */
+	#about-jumbo {
+		background: #f1c40f;
+		height: 300px;
+	}
+
+	#about-banner {
+		width: 90%;
+		height: 250px;
+		margin: 25px auto;
+	}
+
+	#about-banner p {
+		font-size: 1.05em;
+	}
+
+	#about-page #our-leaders h5 {
+		margin-bottom: 25px;
+	}
+
+	#about-page .large-font {
+		font-size: 1.15em;
+	}
+
+	/* Locations Page */
+	#locations-jumbo {
+		background-image: none;
+		height: 300px;
+	}
+
+	#locations-banner {
+		width: 90%;
+		height: 250px;
+		margin: 25px auto;
+	}
+
+	#locations-banner p {
+		font-size: 1.05em;
+	}
+
+	#locations-page #main-content img {
+		width: 250px;
+	}
+
+	/* Contact Box */
+	#contact-box {
+		padding-right: 10px;
+	}
+}
+
+@media (max-width: 500px) {
+	#locations-page #main-content img {
+		width: 100%;
+	}
+
+	#locations-page #main-content img.float-left {
+		float: none;
+		margin: 0;
+	}
+
+	#locations-page #main-content img.float-right {
+		float: none;
+		margin: 0;
+	}
+
+	#locations-page .locations-info {
+		margin-bottom: 45px;
+	}
+}
+
+@media (max-width: 1000px) {
+	#main-content {
+		width: 100%;
+		display: block;
+	}
+
+	#contact-box {
+		width: 80%;
+		float: none;
+		margin: 0 auto;
+		margin-top: 45px;
+		padding-left: 20px;
+	}
+
+	#contact-box hr {
+		width: 95%;
+	}
+
+	/* About Page */
+	#about-page #our-leaders img {
+		display: block;
+		margin: 0 auto;
+	}
+}
